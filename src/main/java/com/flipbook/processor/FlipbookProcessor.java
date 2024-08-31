@@ -1,4 +1,4 @@
-package com.soprabanking.processor;
+package com.flipbook.processor;
 
 import java.awt.image.BufferedImage;
 import java.io.*;
@@ -8,7 +8,6 @@ import java.util.Arrays;
 import java.util.List;
 import java.util.concurrent.ThreadLocalRandom;
 
-import org.apache.commons.io.IOUtils;
 import org.apache.pdfbox.pdmodel.PDDocument;
 import org.apache.pdfbox.rendering.ImageType;
 import org.apache.pdfbox.rendering.PDFRenderer;
@@ -23,15 +22,14 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
-import org.springframework.mock.web.MockMultipartFile;
 import org.springframework.stereotype.Component;
 
-import com.soprabanking.pojo.FlipbookData;
+import com.flipbook.pojo.FlipbookData;
 import org.springframework.web.multipart.MultipartFile;
 
 import javax.imageio.ImageIO;
 
-import static com.soprabanking.utility.Const.LOG_PREFIX;
+import static com.flipbook.utility.Const.LOG_PREFIX;
 
 @Component
 public class FlipbookProcessor {

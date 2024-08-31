@@ -1,10 +1,9 @@
-package com.soprabanking.service;
+package com.flipbook.service;
 
 
 import java.io.IOException;
-import java.util.Arrays;
 
-import com.soprabanking.processor.FlipbookProcessor;
+import com.flipbook.processor.FlipbookProcessor;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -12,9 +11,9 @@ import org.springframework.http.ResponseEntity;
 import org.springframework.stereotype.Service;
 import org.springframework.web.multipart.MultipartFile;
 
-import com.soprabanking.pojo.FlipbookData;
+import com.flipbook.pojo.FlipbookData;
 
-import static com.soprabanking.utility.Const.LOG_PREFIX;
+import static com.flipbook.utility.Const.LOG_PREFIX;
 
 @Service
 public class FlipbookServiceImpl implements FlipbookService {

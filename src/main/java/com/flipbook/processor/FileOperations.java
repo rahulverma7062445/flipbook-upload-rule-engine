@@ -1,16 +1,15 @@
-package com.soprabanking.processor;
+package com.flipbook.processor;
 
 import java.io.*;
 import java.nio.file.Files;
 import java.nio.file.Path;
 import java.nio.file.Paths;
 
-import com.soprabanking.controller.FlipbookController;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.stereotype.Component;
 
-import static com.soprabanking.utility.Const.LOG_PREFIX;
+import static com.flipbook.utility.Const.LOG_PREFIX;
 
 @Component
 public class FileOperations {

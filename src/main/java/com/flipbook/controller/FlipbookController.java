@@ -1,4 +1,4 @@
-package com.soprabanking.controller;
+package com.flipbook.controller;
 
 import java.io.IOException;
 
@@ -9,9 +9,9 @@ import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
 import org.springframework.web.multipart.MultipartFile;
 
-import com.soprabanking.service.FlipbookService;
+import com.flipbook.service.FlipbookService;
 
-import static com.soprabanking.utility.Const.LOG_PREFIX;
+import static com.flipbook.utility.Const.LOG_PREFIX;
 
 @RestController
 @CrossOrigin

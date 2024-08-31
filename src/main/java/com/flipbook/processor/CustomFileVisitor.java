@@ -1,7 +1,6 @@
-package com.soprabanking.processor;
+package com.flipbook.processor;
 
 import java.io.BufferedReader;
-import java.io.File;
 import java.io.IOException;
 import java.io.InputStreamReader;
 import java.nio.file.FileAlreadyExistsException;
@@ -12,13 +11,11 @@ import java.nio.file.Path;
 import java.nio.file.SimpleFileVisitor;
 import java.nio.file.attribute.BasicFileAttributes;
 
-import com.soprabanking.service.FlipbookService;
-import org.apache.commons.io.FileUtils;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.stereotype.Component;
 
-import static com.soprabanking.utility.Const.LOG_PREFIX;
+import static com.flipbook.utility.Const.LOG_PREFIX;
 import static java.nio.file.FileVisitResult.CONTINUE;
 import static java.nio.file.FileVisitResult.SKIP_SUBTREE;
 

@@ -1,4 +1,4 @@
-package com.soprabanking.pojo;
+package com.flipbook.pojo;
 
 import java.util.ArrayList;
 import java.util.List;

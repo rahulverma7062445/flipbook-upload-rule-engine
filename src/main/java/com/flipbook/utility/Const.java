@@ -1,4 +1,4 @@
-package com.soprabanking.utility;
+package com.flipbook.utility;
 
 public abstract class Const {
 

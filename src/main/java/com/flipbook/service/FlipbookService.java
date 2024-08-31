@@ -1,4 +1,4 @@
-package com.soprabanking.service;
+package com.flipbook.service;
 
 import java.io.IOException;
 
