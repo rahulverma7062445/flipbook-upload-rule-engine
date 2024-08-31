@@ -1,0 +1,37 @@
+{"properties": [
+  {
+    "name": "SourceDir",
+    "type": "java.lang.String",
+    "description": "A description for 'SourceDir'"
+  },
+  {
+    "name": "DestinationDir",
+    "type": "java.lang.String",
+    "description": "A description for 'DestinationDir'"
+  },
+  {
+    "name": "SourceDir",
+    "type": "java.lang.String",
+    "description": "A description for 'SourceDir'"
+  },
+  {
+    "name": "extension",
+    "type": "java.lang.String",
+    "description": "A description for 'extension'"
+  },
+  {
+    "name": "filePath",
+    "type": "java.lang.String",
+    "description": "A description for 'filePath'"
+  },
+  {
+    "name": "sourceDirectory",
+    "type": "java.lang.String",
+    "description": "A description for 'sourceDirectory'"
+  },
+  {
+    "name": "targetDirectory",
+    "type": "java.lang.String",
+    "description": "A description for 'targetDirectory'"
+  }
+]}
